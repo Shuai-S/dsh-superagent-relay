@@ -1,0 +1,4 @@
+# Mount the relay Source plugin into the superagent profile.
+- insert:
+    - id: dsh-superagent-relay
+      name: 'dsh-superagent-relay'
