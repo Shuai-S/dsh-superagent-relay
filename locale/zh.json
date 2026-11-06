@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "中转队列 Source",
+    "description": "队列型消息源：桌面端会话与 dingtalk-cli 等生产者把消息推进本地队列，引擎按 Source 契约轮询消费，走完整工单链路。"
+  }
+}

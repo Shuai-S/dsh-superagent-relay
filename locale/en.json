@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Relay Source",
+    "description": "Queue-backed source: desktop conversations and dingtalk-cli push messages into one local queue; the engine polls it like any other Source."
+  }
+}

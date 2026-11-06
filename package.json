@@ -1,17 +1,22 @@
 {
   "name": "dsh-superagent-relay",
   "description": "Queue-backed Source kind for dsh-superagent: desktop conversations and dingtalk-cli push messages into one local queue; the engine polls it like any Source.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "author": "Shuai-S",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
-    ".": "./lib/index.js"
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
   },
+  "icon": "icon.svg",
   "files": [
     "lib",
     "bin",
+    "locale",
+    "icon.svg",
     "cordis.patch.yml"
   ],
   "engines": {
