@@ -11,7 +11,8 @@
   },
   "files": [
     "lib",
-    "bin"
+    "bin",
+    "cordis.patch.yml"
   ],
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
@@ -22,7 +23,8 @@
   "scripts": {
     "build": "tsdown",
     "typecheck": "tsc --noEmit",
-    "check": "pnpm typecheck && pnpm build"
+    "check": "pnpm typecheck && pnpm build",
+    "prepare": "pnpm build"
   },
   "dsh": {
     "bundle": {
